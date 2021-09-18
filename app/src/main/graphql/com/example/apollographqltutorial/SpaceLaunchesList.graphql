@@ -1,0 +1,11 @@
+query SpaceLaunchesList {
+    launchesPast(limit: 10) {
+        mission_name
+        launch_date_local
+        links {
+            mission_patch
+        }
+        id
+    }
+}
+
